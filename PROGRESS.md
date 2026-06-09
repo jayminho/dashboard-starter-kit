@@ -7,6 +7,36 @@ It is **always kept up to date** so we can quickly see what was done last.
 
 ---
 
+## 2026-06-09 - Context Update: Dashboard work is for SISBRAPAG project
+
+**Clarification from user**: The dashboard we are building (using this starter kit and resources) is specifically for the **SISBRAPAG** project.
+
+### SISBRAPAG Details
+- **Full name**: SISTEMA BRASIL PAGAMENTOS DIGITAIS LTDA (CNPJ 32.742.398/0001-28)
+- **Location**: Rio de Janeiro, RJ, Brazil
+- **Business**: Intermediação e agenciamento de serviços e negócios em geral, with focus on:
+  - Remittances
+  - Import / Export
+  - Crypto settlements and digital payments
+- **Current website**: Minimal professional static single-page site featuring a prominent **live currency + crypto converter** (BRL, USD, EUR, GBP ↔ BTC, ETH, USDT, USDC and cross pairs).
+  - Live at: https://sisbrapag.vercel.app/ (and custom domain sisbrapag.com)
+  - GitHub: https://github.com/jayminho/sisbrapag
+  - Built as a lightweight Tailwind CDN + JS single file.
+
+### Implications for this Dashboard Project
+- The starter kit and resources here are general-purpose but are being developed **in service of** SISBRAPAG needs.
+- Future iterations should consider domain-specific use cases such as:
+  - Real-time FX and crypto rate monitoring / history
+  - Remittance and settlement tracking
+  - Transaction overviews and reporting
+  - Client / portfolio dashboards
+  - Operational KPIs for a payments business
+- The HTML `starter-dashboard` and React starter can serve as the foundation for a more full-featured SISBRAPAG dashboard (internal or client-facing).
+
+This relationship was recorded immediately per the documentation rule.
+
+---
+
 ## 2026-06-09 - Session: Documentation System & GitHub Sync Discipline
 
 **Goal**: Establish a complete documentation system so we always know the last steps taken, and formalize the GitHub sync process.

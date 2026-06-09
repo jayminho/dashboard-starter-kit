@@ -1,13 +1,19 @@
 # Dashboard Starter Kit
 
-A collection of resources, templates, and starters for quickly building modern dashboards.
+**This dashboard work is being developed for the SISBRAPAG project**  
+(Sistema Brasil Pagamentos Digitais Ltda — CNPJ 32.742.398/0001-28, Rio de Janeiro).
+
+SISBRAPAG focuses on remittances, import/export intermediation, and crypto settlements.  
+The current public site is a minimal static page with a live currency + crypto converter:  
+https://sisbrapag.vercel.app/ (and sisbrapag.com)  
+Related repo: https://github.com/jayminho/sisbrapag
 
 > **Important**: We maintain detailed progress tracking and planning in these files:
 > - [PROGRESS.md](./PROGRESS.md) — Detailed session-by-session history of what was done.
 > - [CHANGELOG.md](./CHANGELOG.md) — Polished, versioned summary of changes.
 > - [TODO.md](./TODO.md) — Current tasks, roadmap, and ideas.
-
-We follow a strict rule: **All `.md` files must be kept current** so we always know the last steps taken.
+>
+> We follow a strict rule: **All `.md` files must be kept current** so we always know the last steps taken.
 
 ## What's Inside
 
@@ -84,3 +90,5 @@ npm run dev
 ## Continuing Development
 
 This project is actively being built. We add resources, improve starters, and create real dashboard examples over time while maintaining clear documentation of the journey.
+
+The work here will be used to support dashboard needs for SISBRAPAG (rate monitoring, settlements, operations, etc.).

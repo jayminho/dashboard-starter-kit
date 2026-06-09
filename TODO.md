@@ -2,6 +2,9 @@
 
 This file tracks ideas, improvements, and next steps for the Dashboard Starter Kit.
 
+**Note**: This dashboard work is being developed **for the SISBRAPAG project** (Sistema Brasil Pagamentos Digitais).  
+See `README.md` and `PROGRESS.md` for details on the company (remittances, import/export, crypto settlements) and the relationship.
+
 **Priority Levels:**
 - **High** — Should be done soon
 - **Medium** — Nice to have
@@ -36,6 +39,14 @@ This file tracks ideas, improvements, and next steps for the Dashboard Starter K
 - [ ] Add performance benchmarks comparing Chart.js vs ECharts in the context of dashboards.
 - [ ] Create a video or GIF walkthrough of the starters.
 
+## SISBRAPAG-Specific Considerations (Domain Guidance)
+When building actual dashboards for this project, prioritize features relevant to:
+- Live and historical FX / crypto rate displays and alerts
+- Remittance and settlement transaction tracking
+- Operational KPIs (volume, fees, success rates)
+- Client / counterparty overviews
+- Import/export deal monitoring
+
 ---
 
 ## Recently Completed (moved from TODO)
@@ -44,6 +55,7 @@ This file tracks ideas, improvements, and next steps for the Dashboard Starter K
 - [x] Create `PROGRESS.md`, `CHANGELOG.md`, and `TODO.md`.
 - [x] Establish rule to always keep `.md` files updated.
 - [x] Download and organize core resources (libraries, icons, templates, React starter).
+- [x] Record relationship to SISBRAPAG project (2026-06-09).
 
 ---
 
