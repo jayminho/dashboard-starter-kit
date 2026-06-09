@@ -37,6 +37,26 @@ This relationship was recorded immediately per the documentation rule.
 
 ---
 
+## 2026-06-09 - Session Wrap-up: Save All & Pause
+
+**User message**: "okay. save all. we resume tomorrow. thanks"
+
+### Actions Taken
+- All context and decisions from this session saved.
+- SISBRAPAG relationship fully documented in PROGRESS.md, README.md, and TODO.md.
+- Latest documentation state committed and pushed via `./sync.sh`.
+- No open code changes or uncommitted work.
+- Clean pause with full traceability.
+
+**Resume guidance**:
+- Start next session by reading `PROGRESS.md` (latest context) and `TODO.md` (next priorities).
+- Dashboard work remains focused on supporting the SISBRAPAG project (remittances, FX/crypto, settlements).
+- Local SISBRAPAG mirror: `/Users/jpn/grok-projects/sisbrapag/`
+
+**Status**: Everything saved. Ready to resume tomorrow.
+
+---
+
 ## 2026-06-09 - Session: Documentation System & GitHub Sync Discipline
 
 **Goal**: Establish a complete documentation system so we always know the last steps taken, and formalize the GitHub sync process.
