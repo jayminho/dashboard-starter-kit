@@ -7,6 +7,31 @@ It is **always kept up to date** so we can quickly see what was done last.
 
 ---
 
+## 2026-06-09 - Session: Documentation System & GitHub Sync Discipline
+
+**Goal**: Establish a complete documentation system so we always know the last steps taken, and formalize the GitHub sync process.
+
+### Actions Taken
+- Created `CHANGELOG.md` (root) with initial versioned entries.
+- Created `TODO.md` (root) with prioritized tasks and roadmap.
+- Updated root `README.md` to prominently reference all documentation files (`PROGRESS.md`, `CHANGELOG.md`, `TODO.md`).
+- Updated `starter-dashboard/README.md` with reference to the new root documentation system.
+- Updated `resources/RESOURCES.md` with cross-reference to `PROGRESS.md` and a "Last updated" note.
+- Added entry to this `PROGRESS.md` documenting the new documentation rule and files.
+- Used `./sync.sh` to commit and push all documentation improvements together.
+
+### New Documentation Structure Established
+- `PROGRESS.md` → Detailed raw history (session by session).
+- `CHANGELOG.md` → Polished, versioned highlights.
+- `TODO.md` → Active tasks + future ideas.
+- Root `README.md` → High-level + links to all docs.
+
+This fulfills the requirement: "we shall always keep all .MD files updated so we know the last steps we took at all times."
+
+**Status**: Documentation discipline is now part of the core workflow.
+
+---
+
 ## 2026-06-09 - Session: GitHub Sync Setup + Documentation Discipline
 
 **Goal**: Establish reliable syncing with GitHub and enforce documentation of progress.
@@ -76,14 +101,18 @@ It is **always kept up to date** so we can quickly see what was done last.
 
 ## Ongoing Rules & Conventions
 
-- **Documentation Rule** (new as of 2026-06-09): All `.md` files must be kept current. Use `PROGRESS.md` for chronological steps.
-- **Sync Rule**: After meaningful work, commit + push (preferably using `./sync.sh "message"`).
+- **Documentation Rule**: All `.md` files must be kept current. 
+  - Use `PROGRESS.md` for detailed chronological history.
+  - Use `CHANGELOG.md` for polished summaries.
+  - Use `TODO.md` for tasks and roadmap.
+- **Sync Rule**: After meaningful work + doc updates, commit + push (preferably using `./sync.sh "message"`).
 - Main files to maintain:
-  - `README.md` (root) — High-level overview
-  - `PROGRESS.md` (root) — Detailed step-by-step history
-  - `resources/RESOURCES.md` — When adding/removing libraries or templates
-  - `starter-dashboard/README.md` — When improving the HTML starter
-  - `resources/starters/react-tailwind-dashboard/README.md` — When evolving the React starter
+  - `README.md` (root)
+  - `PROGRESS.md` (root)
+  - `CHANGELOG.md` (root)
+  - `TODO.md` (root)
+  - `resources/RESOURCES.md`
+  - Starter-specific READMEs
 
 ---
 

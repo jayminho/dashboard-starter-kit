@@ -2,8 +2,12 @@
 
 A collection of resources, templates, and starters for quickly building modern dashboards.
 
-> **Important**: We maintain detailed progress tracking in [PROGRESS.md](./PROGRESS.md).  
-> This file is always kept up to date so we know exactly what steps were taken last.
+> **Important**: We maintain detailed progress tracking and planning in these files:
+> - [PROGRESS.md](./PROGRESS.md) — Detailed session-by-session history of what was done.
+> - [CHANGELOG.md](./CHANGELOG.md) — Polished, versioned summary of changes.
+> - [TODO.md](./TODO.md) — Current tasks, roadmap, and ideas.
+
+We follow a strict rule: **All `.md` files must be kept current** so we always know the last steps taken.
 
 ## What's Inside
 
@@ -27,16 +31,20 @@ dashboards/
 │   ├── templates/              # Full admin dashboard templates
 │   └── starters/
 │       └── react-tailwind-dashboard/   # Vite + React + Tailwind starter
-├── PROGRESS.md                 # Living history of all steps taken
+├── PROGRESS.md                 # Detailed history of steps
+├── CHANGELOG.md                # Versioned changes
+├── TODO.md                     # Tasks and roadmap
 ├── README.md
 └── sync.sh                     # Helper to commit + push
 ```
 
 ## Documentation & Progress Tracking
 
-We follow a strict rule: **All `.md` files must be kept current**.
+We follow a strict rule: **All `.md` files must be kept updated**.
 
-- `PROGRESS.md` — Chronological log of every significant step and decision.
+- `PROGRESS.md` — Raw chronological log of every session and decision.
+- `CHANGELOG.md` — Cleaner, user-facing summary of notable changes.
+- `TODO.md` — Active tasks, priorities, and future ideas.
 - `README.md` (this file) — High-level overview.
 - `resources/RESOURCES.md` — Inventory of all downloaded tools (update when adding new resources).
 - Individual starter READMEs — Updated when those specific starters are improved.
@@ -47,7 +55,7 @@ This repository is kept in sync as we build.
 
 **Workflow we use:**
 1. Make changes locally.
-2. Update relevant `.md` files (especially `PROGRESS.md`).
+2. Update relevant `.md` files (especially `PROGRESS.md` and `TODO.md`).
 3. When ready, sync to GitHub:
 
    ```bash
