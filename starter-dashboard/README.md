@@ -71,3 +71,7 @@ Run this command to open it:
 cd ~/dashboards/starter-dashboard && open index.html   # macOS
 # or on Linux: xdg-open index.html
 ```
+
+---
+
+**Note**: Progress on the overall project (including improvements to this starter) is tracked in the root [PROGRESS.md](../PROGRESS.md).

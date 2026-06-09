@@ -2,7 +2,9 @@
 
 This folder contains all the main necessary resources downloaded to start building dashboards.
 
-Location: `~/dashboards/resources/`
+**Location**: `~/dashboards/resources/`
+
+> **Note**: See the root [PROGRESS.md](../PROGRESS.md) for the history of when and why these resources were added.
 
 ## Directory Structure
 ```
@@ -118,5 +120,5 @@ You can immediately start replacing the default App with dashboard components.
 All resources are now locally available so you can work offline and have full control.
 
 ---
-Generated: June 2026
-Total size: ~140+ MB (mostly node_modules + icon repos)
+
+**Last updated**: 2026-06-09 (as part of GitHub sync and documentation improvements)
